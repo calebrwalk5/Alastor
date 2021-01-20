@@ -3471,7 +3471,7 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
-			print "----->>> Saphyra attack started Sended <<<-----"
+			print "----->>> Alastor attack started Sended <<<-----"
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason
@@ -3512,8 +3512,8 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print "Starting the Saphyra shotings in webserver Hyper Massive Revolt DDoS Tool"
-		print "Created By Hax Stroke"
+		print "Starting the Alastor shotings in webserver Hyper Massive Revolt DDoS Tool"
+		print "Created By anusO1"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()
